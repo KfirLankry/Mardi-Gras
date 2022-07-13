@@ -6,7 +6,7 @@ We have been challenged to create a full website that represents "Mardi Gras" fe
 • HTML  
 • CSS 3  
 • Bootstrap CSS  
-• Fontawesome Icons  
+• Font-awesome Icons  
 • JavaScript  
 
 ## More:
