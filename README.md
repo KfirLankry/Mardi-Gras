@@ -1,4 +1,4 @@
-# Mardi-Gras
+# Mardi Gras - New Orleans.
 This is My first project from Hackeru Dev course.  
 We have been challenged to create a full website that represents "Mardi Gras" festival in New Orleans.
 
