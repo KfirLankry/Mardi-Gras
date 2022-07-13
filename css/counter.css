@@ -1,0 +1,57 @@
+#clockdiv {
+  font-family: "Pattaya";
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 1px 1px 2px black;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+#clockdiv > div {
+  padding: 20px;
+  border-radius: 15px;
+  background: #8cbf3fd7;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 5px;
+  background: #67991cce;
+  display: inline-block;
+  width: 100%;
+}
+
+.smalltext {
+  padding-top: 10px;
+  font-size: 2.3rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.counter {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #clockdiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    background: #8cbf3fd7;
+    display: inline-block;
+    font-size: 30px;
+  }
+
+  #clockdiv div > span {
+    padding: 5px;
+    border-radius: 3px;
+    background: #67991cce;
+    display: inline-block;
+  }
+  .smalltext {
+    padding-top: 5px;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px black;
+  }
+}

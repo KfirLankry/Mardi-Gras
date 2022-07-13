@@ -1,0 +1,113 @@
+/* Navigator Links */
+
+.nav-link {
+  font-family: "Pattaya";
+  font-size: 2.2rem;
+  padding-top: 0.5rem;
+  color: #9453a6 !important;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.mardi_logo {
+  position: absolute;
+  top: 16px;
+  right: 25rem;
+  width: 100px;
+  height: 110px;
+  z-index: 99;
+
+  /* Logo Animation */
+
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes mardi_logo {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+@keyframes mardi_logo {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+/* Navigator Bar */
+
+.navbar {
+  background-image: url(../images/footerbg.jpg);
+  background-color: #f2cc0f !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 0.4rem solid #9453a6 !important;
+}
+
+.nav-link:hover,
+.nav-link:hover,
+.nav-link:hover,
+.nav-link:hover,
+.nav-link:hover {
+  transform: scale(1.15);
+  transition: transform 1s;
+  color: white !important;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-link:hover,
+  .nav-link:hover,
+  .nav-link:hover,
+  .nav-link:hover,
+  .nav-link:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+    background-color: unset;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .mardi_logo {
+    display: none;
+  }
+}

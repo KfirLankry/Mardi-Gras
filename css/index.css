@@ -1,0 +1,280 @@
+@import url(nav.css);
+@import url(backtotop.css);
+
+* {
+  user-select: none;
+}
+
+/* Image Sizing */
+
+img {
+  max-height: 450px;
+  object-fit: cover;
+}
+
+/* Responsive Image */
+
+.respo_image {
+  display: none;
+}
+
+.respo_image img {
+  width: 100%;
+}
+
+/* Carousel */
+
+.carousel {
+  border-bottom: 0.5rem solid #8cbf3f !important;
+}
+
+.h1_carousel {
+  font-family: "Henny Penny", cursive;
+  text-shadow: 3px 2px 2px #000000;
+  font-size: 2.5rem;
+}
+
+/* Features */
+
+#features,
+#about,
+#gallery,
+#faq,
+#contact {
+  padding: 1% 15%;
+  text-align: center;
+  background-image: url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Content Font */
+
+p,
+.accordion-collapse {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(146, 146, 146);
+}
+
+.firstletter::first-letter {
+  font-size: 150%;
+  color: rgb(146, 146, 146);
+}
+
+/* Headlines */
+
+h3,
+h2,
+.h1_id {
+  font-family: "Pattaya";
+}
+
+.h1_id {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 767px) {
+  .h1_id {
+    font-size: 2rem;
+  }
+  .carousel {
+    display: none;
+  }
+  .respo_image {
+    display: block;
+    border-bottom: 0.6rem solid #9453a6 !important;
+  }
+  #sponsor-img {
+    width: 100% !important;
+  }
+  .sponsor_title {
+    padding-top: 50px;
+  }
+}
+
+.p_features,
+.p_about {
+  color: rgb(146, 146, 146);
+}
+
+/* Font Awesome */
+
+.fa-solid {
+  color: #9453a6;
+}
+
+.fa-solid:hover {
+  color: #690086;
+
+  /* Animation */
+
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes mardi_logo {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+@keyframes mardi_logo {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+/* Wave Design*/
+
+.wave {
+  width: 100%;
+}
+
+/* Sponsors */
+
+.sponsors,
+.videos {
+  background-image: url(../images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.Gallery_image {
+  width: 300px;
+  padding: 1.5rem;
+  border-radius: 30px;
+  filter: drop-shadow(0.4rem 0.4rem 0.3rem rgba(0, 0, 0, 0.2));
+}
+
+.Gallery_image:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+
+.title_lines {
+  background: -webkit-linear-gradient(#f2f2f2, #0d0d0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_align_left {
+  text-align: left;
+}
+
+.text_align_center {
+  text-align: center;
+}
+
+.sponsor_title {
+  color: #f2cc0f;
+  text-shadow: 1px 2px black;
+}
+
+/* Socials Hover */
+
+.link {
+  color: #313131;
+}
+
+.socials:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.fa-instagram:hover {
+  color: #833ab4;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-envelope:hover {
+  color: rgb(235, 235, 235);
+}
+
+.fa-tripadvisor:hover {
+  color: #00af87;
+}
+
+/* Links Design */
+
+a {
+  color: #9453a6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cd85e0;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  background-image: url(../images/footerbg.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  /* background-color: #f2cc0f; */
+  text-align: center;
+  padding-top: 3rem;
+  border-top: 0.5rem solid #8cbf3f;
+}
+
+hr {
+  color: #9453a6;
+}

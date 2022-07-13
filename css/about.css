@@ -1,0 +1,59 @@
+@import url(nav.css);
+@import url(index.css);
+
+.counter {
+  border-bottom: 0.4em solid #9453a6;
+  text-align: center;
+  background-image: url(../images/image6.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 520px;
+  padding-top: 60px;
+}
+
+.countdown_title {
+  font-weight: 1000px;
+  font-size: 4rem;
+  margin: 40px 0px 20px;
+  font-family: "Pattaya";
+}
+
+.text_sahdow {
+  text-shadow: 4px 4px black !important;
+}
+
+.text_align {
+  text-align: left;
+}
+
+.about_img,
+.about_img2 {
+  text-align: justify;
+  padding: 1rem;
+  width: 250px;
+  filter: drop-shadow(0.2rem 0.3rem 0.2rem rgba(0, 0, 0, 0.3));
+  border-radius: 30px;
+}
+
+.about_img {
+  float: left;
+}
+
+.about_img2 {
+  float: right;
+}
+
+@media only screen and (max-width: 767px) {
+  .about_img,
+  .about_img2 {
+    display: none;
+  }
+  .countdown_title {
+    font-size: 2.5rem;
+  }
+  .counter {
+    height: 380px;
+  }
+}

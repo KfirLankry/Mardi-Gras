@@ -1,0 +1,60 @@
+@import url(index.css);
+@import url(nav.css);
+
+#gallery {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Gallery_image {
+  width: 300px;
+  padding: 1.5rem;
+  border-radius: 30px;
+  filter: drop-shadow(0.4rem 0.4rem 0.3rem rgba(0, 0, 0, 0.2));
+}
+
+iframe {
+  border-radius: 10px;
+  filter: drop-shadow(0.4rem 0.4rem 0.3rem rgba(0, 0, 0, 0.2));
+}
+
+@media only screen and (max-width: 767px) {
+  #gallery-img {
+    width: 100%;
+  }
+
+  iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+.video_gallery {
+  display: inline-block;
+}
+
+.text_align_center {
+  text-align: center;
+}
+
+.videogallery_title {
+  color: #f2cc0f;
+  text-shadow: 1px 2px black;
+}
+
+.modal-dialog {
+  height: 400px !important;
+}
+
+.videos {
+  background-color: #833ab4;
+  text-align: center;
+}
+
+.gallery__link {
+  margin: 2px;
+  overflow: hidden;
+}

@@ -1,0 +1,120 @@
+@import url(nav.css);
+@import url(index.css);
+
+.main-quiz-container {
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 1px 1px 3px rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+
+.buttons-box {
+  margin-top: 2.5rem;
+}
+
+.btns {
+  margin: 0 auto;
+  /* display: block; */
+}
+
+.button {
+  background-color: #9453a6;
+  border: 1px solid lightgrey;
+  padding: 6px;
+  color: white;
+  width: 500px;
+  margin: 6px;
+  border-radius: 6px;
+  font-size: 1.3rem;
+}
+
+.question {
+  font-size: 1.4rem !important;
+}
+
+.button:hover {
+  background-color: #c97fdd;
+}
+
+.btn-container {
+  display: flex;
+}
+
+#btns {
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.2rem;
+  border: 1px solid lightgrey;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  text-align: center;
+}
+
+#restart {
+  background-color: #8cbf3f;
+  width: 200px;
+  border: 1px solid lightgrey;
+  padding: 8px;
+  color: white;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 1.3rem;
+}
+
+.display_none {
+  display: none;
+}
+
+._gameoverTxt {
+  font-family: "Pattaya";
+  font-size: 2rem;
+}
+
+#restart:hover {
+  background-color: #487607;
+}
+
+.mardi-title {
+  border-bottom: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  margin-bottom: 1rem;
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 800px) {
+  .button,
+  #_name {
+    width: 90%;
+  }
+  #score-txt {
+    font-size: 1.2rem !important;
+  }
+  .question {
+    font-size: 1.2rem !important;
+  }
+  ._gameoverTxt {
+    font-size: 1rem;
+    margin-top: 1.3rem;
+  }
+  .quiz-container {
+    width: 85%;
+    height: 85%;
+  }
+}

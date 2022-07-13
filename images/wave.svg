@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="wave"
+   style="transform:rotate(180deg); transition: 0.3s"
+   viewBox="0 0 1440 120"
+   version="1.1"
+   sodipodi:docname="wave.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview31"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.79230333"
+     inkscape:cx="1125.2004"
+     inkscape:cy="7.5728572"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="wave" />
+  <defs
+     id="defs26">
+    <linearGradient
+       id="sw-gradient-0"
+       x1="0"
+       x2="0"
+       y1="1175.7551"
+       y2="0"
+       gradientTransform="matrix(9.797959,0,0,0.10206207,-2.5242857,29.010001)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="rgba(140, 191, 63, 1)"
+         offset="0%"
+         id="stop21" />
+      <stop
+         stop-color="rgba(140, 191, 63, 1)"
+         offset="100%"
+         id="stop23" />
+    </linearGradient>
+  </defs>
+  <path
+     style="opacity:1;fill:url(#sw-gradient-0)"
+     fill="url(#sw-gradient-0)"
+     d="m -2.5242857,29.010001 79.9999997,18 c 79.999996,18 239.999996,53.999999 399.999996,57.999999 160,4 320,-24 480,-39.999999 159.99999,-16 319.99999,-20 479.99999,-8 160,12 320,39.999999 480,47.999999 160,8 320,-4 480,-20 160,-15.999999 320,-35.999999 480,-39.999999 160,-4 320,8 480,18 160,10 320,17.999999 480,25.999999 160,8 320,16 480,8 160,-8 320,-31.999999 480,-45.999999 160,-14 320,-18 480,-18 160,0 320,4 480,4 160,0 320,-4 480,8 160,12 320,39.999999 480,51.999999 160,12 320,8 480,10 160,2 320,10 480,0 160,-10 320,-37.999999 480,-37.999999 160,0 320,27.999999 480,25.999999 160,-2 320,-33.999999 480,-47.999999 160,-14 320,-10 480,6 160,16 320,43.999999 480.0003,41.999999 160,-2 320,-33.999999 480,-37.999999 160,-4 320,19.999999 480,19.999999 160,0 320,-23.999999 400,-35.999999 l 80,-12 V 149.01 h -80 c -80,0 -240,0 -400,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160.0003,0 -320.0003,0 -480.0003,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -479.99999,0 -160,0 -320,0 -480,0 -160,0 -320,0 -399.999996,0 H -2.5242857 Z"
+     id="path28" />
+</svg>

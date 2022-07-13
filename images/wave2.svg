@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="wave"
+   style="transform:rotate(0deg); transition: 0.3s"
+   viewBox="0 0 1440 120"
+   version="1.1"
+   sodipodi:docname="wave2.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview149"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.73472222"
+     inkscape:cx="719.31947"
+     inkscape:cy="59.886578"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="wave" />
+  <defs
+     id="defs144">
+    <linearGradient
+       id="sw-gradient-0"
+       x1="0"
+       x2="0"
+       y1="1175.7551"
+       y2="0"
+       gradientTransform="matrix(9.797959,0,0,0.10206207,0,34)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="rgba(140, 191, 63, 1)"
+         offset="0%"
+         id="stop139" />
+      <stop
+         stop-color="rgba(140, 191, 63, 1)"
+         offset="100%"
+         id="stop141" />
+    </linearGradient>
+  </defs>
+  <path
+     style="opacity:1;fill:url(#sw-gradient-0)"
+     fill="url(#sw-gradient-0)"
+     d="m 0,34 80,18 c 80,18 240,54 400,58 160,4 320,-24 480,-40 160,-16 320,-20 480,-8 160,12 320,40 480,48 160,8 320,-4 480,-20 160,-16 320,-36 480,-40 160,-4 320,8 480,18 160,10 320,18 480,26 160,8 320,16 480,8 160,-8 320,-32 480,-46 160,-14 320,-18 480,-18 160,0 320,4 480,4 160,0 320,-4 480,8 160,12 320,40 480,52 160,12 320,8 480,10 160,2 320,10 480,0 160,-10 320,-38 480,-38 160,0 320,28 480,26 160,-2 320,-34 480,-48 160,-14 320,-10 480,6 160,16 320,44 480,42 160,-2 320,-34 480,-38 160,-4 320,20 480,20 160,0 320,-24 400,-36 l 80,-12 v 120 h -80 c -80,0 -240,0 -400,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -480,0 -160,0 -320,0 -400,0 H 0 Z"
+     id="path146" />
+</svg>

@@ -1,0 +1,22 @@
+@import url(nav.css);
+@import url(index.css);
+
+.text_align {
+  text-align: left;
+}
+
+.grey_color {
+  color: rgb(146, 146, 146);
+}
+
+.font_size {
+  font-size: 1.2rem;
+}
+
+.accordion-button.collapsed::after {
+  background: url("../images/downarrow.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background: url("../images/downarrow.png");
+}

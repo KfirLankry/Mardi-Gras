@@ -1,0 +1,60 @@
+@import url(nav.css);
+@import url(index.css);
+
+.contact-box,
+.map {
+  margin: auto;
+  display: flex;
+}
+
+.googlemap {
+  border-radius: 15px;
+}
+#contact {
+  margin-top: 1rem;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+.map {
+  justify-content: center;
+}
+
+iframe {
+  width: 600px;
+  height: 440px;
+}
+
+.text_align {
+  text-align: center;
+}
+
+.red_color {
+  color: red;
+}
+
+.text_area_height {
+  height: 150px !important;
+}
+
+._btn {
+  background-color: #9453a6 !important;
+  border: 1px solid #9453a6 !important;
+}
+
+._btn:hover {
+  background-color: #c97fdd !important;
+}
+
+.responsive_hr {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .responsive_hr {
+    display: block;
+  }
+}
