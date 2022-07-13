@@ -1,16 +1,18 @@
 # Mardi Gras - New Orleans.
 This is My first project from Hackeru Dev course.  
-We have been challenged to create a full website that represents "Mardi Gras" festival in New Orleans.
+We have been challenged to create a full website that represents "Mardi Gras" festival in New Orleans.  
+  
+Web colors, fonts, logo, and content were given in advance.
 
 #### Introduction
 Mardi Gras is a festive day celebrated in New orleans on Shrove Tuesday, which marks the close of the pre-Lenten season.
 
 ## Project ingredients:
-• HTML 5  
-• CSS 3  
-• Bootstrap CSS  
-• Font-awesome Icons  
-• JavaScript (ES5)  
+* HTML 5  
+* CSS 3  
+* Bootstrap CSS  
+* Font-awesome Icons  
+* JavaScript (ES5)  
 
 ## More:
 Development Field: Front-End  
