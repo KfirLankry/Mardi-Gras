@@ -11,4 +11,6 @@ We have been challenged to create a full website that represents "Mardi Gras" fe
 
 ## More:
 Development Field: Front-End  
-Web Preview: https://mardigras2022.netlify.app/
+Web: https://mardigras2022.netlify.app/
+## Preview:
+![alt text](https://github.com/KfirLankry/Mardi-Gras/blob/master/images/Mardigras.jpg?raw=true)
