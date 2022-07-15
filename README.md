@@ -14,9 +14,11 @@ Mardi Gras is a festive day celebrated in New orleans on Shrove Tuesday, which m
 * Font-awesome Icons  
 * JavaScript (ES5)  
 
-## More:
+## More Info:
 Development Field: Front-End  
-Live Web: https://mardigras2022.netlify.app/
+Live Web: https://mardigras2022.netlify.app/  
+Author: Kfir Lankry
+
 ## Screenshots:
 ![alt text](https://github.com/KfirLankry/Mardi-Gras/blob/master/images/screenshot_1.jpg?raw=true) 
 ***
