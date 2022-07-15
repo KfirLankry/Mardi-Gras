@@ -22,6 +22,6 @@ Live Web: https://mardigras2022.netlify.app/
 ***
 ![alt text](https://github.com/KfirLankry/Mardi-Gras/blob/master/images/screenshot_2.jpg?raw=true)  
 ***
-![alt text](https://github.com/KfirLankry/Mardi-Gras/blob/master/images/screenshot_3.jpg?raw=true)
+![alt text](https://github.com/KfirLankry/Mardi-Gras/blob/master/images/screenshot__3.jpg?raw=true)
 ***
-![alt text](https://github.com/KfirLankry/Mardi-Gras/blob/master/images/screenshot_4.jpg?raw=true)
+![alt text](https://github.com/KfirLankry/Mardi-Gras/blob/master/images/screenshot__4.jpg?raw=true)
