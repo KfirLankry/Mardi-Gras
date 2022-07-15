@@ -1,6 +1,6 @@
 # Mardi Gras - New Orleans.
 This is My first project from Hackeru Dev course.  
-We have been challenged to create a full website that represents "Mardi Gras" festival in New Orleans.  
+I have been challenged to create a full (5 pages) website that represents "Mardi Gras" festival / holyday in New Orleans.  
   
 Web colors, fonts, logo, and content were given in advance.
 
