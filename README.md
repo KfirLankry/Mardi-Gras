@@ -1,8 +1,9 @@
 # Mardi Gras - New Orleans.
 This is My first project from Hackeru Dev course.  
 I have been challenged to create a full (5 pages) website that represents "Mardi Gras" festival / holyday in New Orleans.  
-  
-Web colors, fonts, logo, and content were given in advance.
+
+- Quiz section was developed in Javascript Vanilla.  
+- Web colors, fonts, logo, and content were given in advance.  
 
 #### Introduction
 Mardi Gras is a festive day celebrated in New orleans on Shrove Tuesday, which marks the close of the pre-Lenten season.
@@ -12,7 +13,7 @@ Mardi Gras is a festive day celebrated in New orleans on Shrove Tuesday, which m
 * CSS 3  
 * Bootstrap CSS  
 * Font-awesome Icons  
-* JavaScript (ES5)  
+* JavaScript 
 
 ## More Info:
 Development Field: Front-End  
